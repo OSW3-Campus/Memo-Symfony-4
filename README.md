@@ -6,4 +6,4 @@ Ce mémo Symfony 4 est destiné à vous guider dans le développement de vos app
 
 ---
 
-![](_media/cover.png)
+![](images/cover.png)
