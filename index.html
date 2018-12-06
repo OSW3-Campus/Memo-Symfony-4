@@ -7,6 +7,16 @@
   <meta name="description" content="Description">
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css">
+  <style>
+    .markdown-section > h1 {
+      padding-top: 2rem;
+      margin-top: 2rem;
+      border-top: 1px solid #dbdbdb;
+    }
+    .markdown-section > h1:first-child {
+      margin-top: 0rem;
+    }
+  </style>
 </head>
 <body>
   <div id="app"></div>
@@ -15,9 +25,15 @@
       name: 'Memo Symfony 4',
       repo: 'https://github.com/OSW3-Campus/Memo-Symfony-4',
       loadSidebar: true,
-      loadSidebar: 'sidebar.md'
+      loadSidebar: 'sidebar.md',
+      auto2top: true
     }
   </script>
   <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
+  <script src="//unpkg.com/prismjs/components/prism-bash.min.js"></script>
+  <script src="//unpkg.com/prismjs/components/prism-php.min.js"></script>
+  <script src="//unpkg.com/prismjs/components/prism-twig.min.js"></script>
+  <script src="//unpkg.com/prismjs/components/prism-yaml.min.js"></script>
+  <script src="//unpkg.com/docsify-copy-code"></script>
 </body>
 </html>

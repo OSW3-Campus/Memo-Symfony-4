@@ -1,13 +1,12 @@
-# Le gestionnaire **Composer**
-
+> # Le gestionnaire **Composer**
 Composer est un gestionnaire de dépendances, libre, écrit en PHP.  
 Avec Symfony, **Composer** est un outil essentiel pour la création, la mise à jour et la mise en production du projet.  
 Il permet également l'ajout de librairie externe au projet.
 
 
-## Installer Composer
+# Installer Composer
 
-### Installer composer pour Linux et MacOS
+## Installer composer pour Linux et MacOS
 
 Pour installer Composer, copier ces quelques ligne dans votre Terminal.
 ```
@@ -22,14 +21,14 @@ php -r "unlink('composer-setup.php');"
 3. PHP exécute le fichier composer-setup.php qui procèede à l'installation de Composer.
 4. PHP supprime le fichier composer-setup.php devenu inutile.
 
-### Installer Composer pour Windows
+## Installer Composer pour Windows
 
 Télécharger et exécuter le fichier Composer-Setup.exe (téléchargement depuis le site officiel de Composer.)
 
 
-## Commandes essentielles
+# Commandes essentielles
 
-**Version de Composer**
+### Version de Composer
 ```
 composer -v
 ```
@@ -64,7 +63,7 @@ composer require source-du-composant --dev
 ```
 
 
-## Liens
+# Liens
 
 - [Site officiel​](https://getcomposer.org/)
 - [Composer sur Wikipédia​](https://fr.wikipedia.org/wiki/Composer_(logiciel))
